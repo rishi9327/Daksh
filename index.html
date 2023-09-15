@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DV Internationals</title>
+    <style>
+        body {
+            background-image: url(file.jpg); /* Replace with your desired background color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Inter', sans-serif; /* Use the Inter font */
+        }
+
+        h1 {
+            color: white;
+            font-weight: bold;
+            font-size: 130px; /* Increase font size */
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center; /* Align buttons in a line */
+            flex-wrap: wrap;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .button {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            font-weight: bold;
+            padding: 15px 30px; /* Increase button size */
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+
+        .button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* Marquee styles */
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            position: absolute;
+            bottom: 30px; /* Adjust the position */
+            background-color: transparent; /* Make the marquee container transparent */
+        }
+
+        .marquee {
+            color: white;
+            white-space: nowrap;
+            animation: marquee 50s linear infinite;
+            font-size: xx-large;
+            font-variant: initial;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .continue-button {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            font-weight: bold;
+            font-size: 24px; /* Increase button size */
+            padding: 20px 40px; /* Increase button size */
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .continue-button:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>DV Internationals</h1>
+    <div class="marquee-container">
+        <div class="marquee">Subscribe to Sg Verified And Tech Editor VC</div>
+    </div>
+    <div class="button-container">
+        <a href="file:///C:/Users/shivs/Downloads/form.html"
+        <button class="continue-button">Continue </button>
+        </a> <!-- "Continue" button above the row of buttons -->
+        <a href="file:///C:/Users/shivs/Downloads/page1.html">
+        <button class="button">Home</button>
+        </a>
+        <a href="file:///C:/Users/shivs/Downloads/contact.html">
+        <button class="button">Contact</button>
+        </a>
+        <a href="file:///C:/Users/shivs/Downloads/Help.html">
+        <button class="button">Help</button>
+        </a>
+        <a href="file:///C:/Users/shivs/Downloads/about.html">
+        <button class="button">About Us</button>
+        </a>
+    </div>
+</body>
+</html>
